@@ -11,3 +11,6 @@ venv/
 
 # huggingface cache (optional - usually not inside project)
 .cache/
+
+*.mp4
+screenshots/*.mp4
