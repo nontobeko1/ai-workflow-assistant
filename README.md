@@ -48,3 +48,20 @@ in a real-world workflow.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+---
+
+## Demo Evidence
+
+This repository includes visual evidence demonstrating the full end-to-end
+execution of the Intelligent Workflow Assistant.
+
+The demo screenshots show:
+
+- Command-line execution of the application
+- AI-generated extraction of customer name, topic, urgency, and summary
+- Successful automated logging of results into Google Sheets using Google APIs
+
+These screenshots confirm that the solution works as intended, from email input
+through AI processing to automated task tracking.
+
