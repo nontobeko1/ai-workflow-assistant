@@ -114,4 +114,30 @@ Power BI
 
 This would enable managers to analyse support trends, volume, and response priorities over time.
 
+🎨 Clean UI / UX Considerations
+Although the current implementation uses a command-line interface for simplicity, the user experience was intentionally designed to remain clear, lightweight, and accessible.
 
+1️⃣ Minimal Input Flow
+The system accepts a single email-style text input with clear instructions, reducing cognitive load and eliminating unnecessary steps. Users only need to paste an email and press Enter to trigger the workflow.
+
+2️⃣ Readable & Structured Output
+Results are displayed in a clearly separated format, showing:
+
+Customer name
+
+Topic classification
+
+Urgency level
+
+AI-generated summary
+
+This ensures users can quickly understand the outcome before or after automation occurs.
+
+3️⃣ Automatic Feedback & Status Messages
+Throughout execution, the system provides clear feedback messages (e.g. “Running AI summarisation”, “Connecting to Google Sheets”, “Logged successfully”), improving transparency and user confidence in the automation process.
+
+4️⃣ Consistent Data Presentation
+All extracted results are logged in a structured Google Sheet with consistent column headers and formatting. This acts as a simple, intuitive dashboard that non-technical users can easily understand and audit.
+
+5️⃣ UI/UX Extensibility
+The current CLI-based interaction was intentionally chosen as a clean foundation. The workflow can be easily extended to a graphical interface using Flask or FastAPI, without redesigning the underlying logic.
